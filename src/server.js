@@ -7,7 +7,7 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 const server = new GraphQLServer({
-    typeDefs : path.join(__dirname,"graphql/schema.graphql"),
+    typeDefs : path.join(__dirname,"/graphql/schema.graphql"),
     resolvers: resolvers
 })
 

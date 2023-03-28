@@ -10,7 +10,7 @@ const movieSchema = new Schema({
         Require: true
     },
     release_date:{
-        type: Date
+        type: String
     },
     poster_path:{
         type: String,
@@ -22,4 +22,4 @@ const movieSchema = new Schema({
     }
 })
 
-export default model ('Movie', movieSchema);
+export default model('Movie', movieSchema)
